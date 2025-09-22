@@ -90,7 +90,6 @@ while True:
     else:
         print("Game is not available yet")
     while True:
-        ("Do you want to continue? (y/n)")
         choiceinp = input("Do you want to continue? (y/n)")
         if choiceinp.lower() == "y":
             break
