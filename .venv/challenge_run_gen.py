@@ -68,8 +68,11 @@ games = {
         "Plank / Pipe only",
         "Handgun only",
         "Hard / Hard in less than 4 hours",
-        "Finish the game without killing ANY mannequins"
-        "Only save 3 times max (Combat hard)"
+        "Finish the game without killing ANY mannequins",
+        "Only save 3 times max (Combat hard)",
+        "Get In Water ending in under 5 hours",
+        "Get Maria ending in under 5 hours",
+        "Get Leave ending in under 5 hours",
     ]
 }
 
