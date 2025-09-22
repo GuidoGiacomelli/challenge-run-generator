@@ -73,6 +73,7 @@ games = {
         "Get In Water ending in under 5 hours",
         "Get Maria ending in under 5 hours",
         "Get Leave ending in under 5 hours",
+        "Don't kill ANY enemies in the Toluca Prison"
     ]
 }
 
