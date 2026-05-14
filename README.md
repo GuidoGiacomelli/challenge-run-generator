@@ -15,6 +15,5 @@ Features:
 Planned improvements:
 - Tkinter GUI
 - Category system and difficulty levels
-- JSON-based challenge storage
 
 More games will be added in the future.
