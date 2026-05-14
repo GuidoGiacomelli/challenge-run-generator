@@ -1,6 +1,4 @@
-import random
-
-games = {
+{
     "resident evil 1": [
         "Invisible Enemy",
         "Handgun only (No defense items)",
@@ -11,7 +9,7 @@ games = {
         "Finish the game with the best ending in less than 4 hours",
         "Finish the game without ever burning a body",
         "Finish the game without ever killing a hunter",
-        "No saving (Normal)"
+        "No saving (Hard difficulty)"
     ],
     "resident evil 2": [
         "No defense items (Remake only)",
@@ -64,7 +62,7 @@ games = {
         "Village of Shadows (fuck you)",
         "No saving (Hardcore)"
     ],
-    "Silent Hill 2": [
+    "silent hill 2": [
         "Plank / Pipe only",
         "Handgun only",
         "Hard / Hard in less than 4 hours",
@@ -76,25 +74,3 @@ games = {
         "Don't kill ANY enemies in the Toluca Prison"
     ]
 }
-
-while True:
-    print("Challenge run generator")
-    print("Available games: ")
-    for g in games.keys():
-        print(f"- {g.title()}")
-    game = input("Select a game: ")
-    game = game.lower()
-    if game.lower() in games:
-        challenge = random.choice(games[game])
-        print(f"Your challenge: {challenge}")
-    else:
-        print("Game is not available yet")
-    while True:
-        choiceinp = input("Do you want to continue? (y/n)")
-        if choiceinp.lower() == "y":
-            break
-        elif choiceinp.lower() == "n":
-            print("Process finished")
-            exit()
-        else:
-            print("Invalid input. Try again")
