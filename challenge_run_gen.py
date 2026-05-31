@@ -8,16 +8,16 @@ def display_games(games):
     for g in games.keys():
         print(f"- {g.title()}")
 
-def get_challenge(games, game):
-    return random.choice(games[game])
+def get_challenge(games, game_name):
+    return random.choice(games[game_name])
 
 while True:
     print("Challenge run generator")
     display_games(games)
-    game = input("Select a game: ")
-    game = game.lower()
-    if game in games:
-        print(f"Your challenge: {get_challenge(games, game)}")
+    game_name = input("Select a game: ")
+    game_name = game_name.lower()
+    if game_name in games:
+        print(f"Your challenge: {get_challenge(games, game_name)}")
     else:
         print("Game is not available yet")
     while True:
