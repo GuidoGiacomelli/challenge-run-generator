@@ -72,5 +72,8 @@
         "Get Maria ending in under 5 hours",
         "Get Leave ending in under 5 hours",
         "Don't kill ANY enemies in the Toluca Prison"
+    ],
+    "outlast": [
+        "Energizer (Complete the game in insane without ever reloading batteries)"
     ]
 }
