@@ -6,6 +6,7 @@ __pycache__/
 *.pyc
 
 # Virtualenv / venv
+.venv/
 venv/
 env/
 Product/
