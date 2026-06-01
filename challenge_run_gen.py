@@ -47,3 +47,5 @@ while True:
         case "4":
             print("Process finished")
             exit()
+        case _:
+            print("Invalid option. Try again")
