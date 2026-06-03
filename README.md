@@ -1,4 +1,4 @@
-This is a simple Python CLI challenge run generator for certain videogames. At the time, the titles included are:
+This is a simple Python CLI challenge run generator for certain videogames. The focus of this project is personal use, and currently there are no plans to deploy it. At the time, the titles included are:
 - Resident Evil 1
 - Resident Evil 2
 - Resident Evil 3
@@ -6,6 +6,7 @@ This is a simple Python CLI challenge run generator for certain videogames. At t
 - Resident Evil 7
 - Resident Evil 8
 - Silent Hill 2
+- Outlast
 
 Features:
 - Choose a game from available options
