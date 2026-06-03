@@ -10,7 +10,7 @@ This is a simple Python CLI challenge run generator for certain videogames. At t
 Features:
 - Choose a game from available options
 - Randomly chooses a run condition
-- Error handling for invalid input
+- Allows the user to save their own games and challenges to a JSON file
 
 Planned improvements:
 - Tkinter GUI
